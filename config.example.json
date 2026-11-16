@@ -1,0 +1,12 @@
+{
+  "port": 4000,
+  "backends": [
+    { "name": "lmstudio", "base_url": "http://localhost:1234/v1", "priority": 1 },
+    { "name": "ollama", "base_url": "http://localhost:11434/v1", "priority": 2 }
+  ],
+  "routes": {
+    "coding": "deepseek-coder-v2",
+    "general": "qwen3.5-9b",
+    "reasoning": "mistral-nemo"
+  }
+}

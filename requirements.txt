@@ -1,0 +1,1 @@
+# Zero pip dependencies required — uses Python 3.10+ stdlib http.server & urllib.
